@@ -1,0 +1,275 @@
+*{
+    font-family: 'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif;
+   
+}
+
+#logoMarca{
+    width: 150px;
+   
+}
+
+
+#buscador::before{
+    content: ""
+    url("../Images/Mlupa.png");
+     position: absolute;
+      margin-left:2px;
+      margin-top:10px
+
+}
+input{
+    border-radius: 10px;
+    height:40px;
+    text-indent: 15px;
+}
+.btnBg{
+    
+    display: inline-flex;
+    background-color:#f44237;
+   align-items: center;
+    color: antiquewhite;
+    border-radius: 25px;
+    width: max-content;
+    
+    
+  }
+ button{
+     margin-right: 3%;
+
+ }
+ .btnBg#SuaEntrega{
+     padding-left:40px;
+ }
+ .btnBg#Login{
+    padding-left:40px;
+ }
+ #SuaEntrega::before{
+     content: ""
+     url(../Images/CaminhãoEntrega.png);
+     position: absolute;
+     margin-left:-35px;
+     margin-top:7px;
+     
+     
+ }
+ #Login::before{
+    content: ""
+    url(../Images/favicon-32x32.png);
+    position:absolute;
+    margin-left:-35px;
+    margin-top:7px;
+    transform: scale(.7);
+    
+ }
+.cart{
+   
+    width:20px;
+    margin-right:1px;
+   
+    
+}
+#line{
+    
+        width: 1px;
+        height: 24px;
+        background-color: #fff;
+        margin-right: 11.5px;
+    
+}
+#carrinhoItem{
+    position:absolute;
+   font-size: 10px;
+    margin-bottom: 17px;
+    margin-left: 10px;
+   background-color: rgb(56, 58, 54);
+   border-radius: 250px;
+   width: 18px;
+   height: 15px;
+    
+}
+
+.categorias{
+   font-size: 15px;
+   font-weight: bold;
+
+   }
+.card-img-top{
+   display:flex;
+   width:200px;
+   margin: 30px;
+
+  
+}
+h5{
+    color: #747474;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item{
+    display:inline-block;
+    position: relative;
+    margin: 10px;
+  
+}
+.item#produto2{
+    display: inline-block;
+}
+
+.precoAtual{
+    font-weight: bold;
+    color: #f44237;
+    font-size: 23px;
+
+}
+.precoAntigo{
+    position:absolute;
+    color: #747474;
+    left: 115px;
+    top: 155px;
+    font-size:18px;
+    text-decoration:line-through;
+
+}
+.pOFF{
+padding: 5px;
+padding-right: 10px;
+color: #f44237;
+font-weight: bold;
+border-radius:6px;
+background-color:#f8d0ce;
+}
+
+.Quantidade{
+    position:absolute;
+    left:150px;
+    border-radius: 100px;
+    font-weight: bold;
+    color: #f44237;
+    padding: 1px 8px;
+}
+#ComunicaTitle{
+        font-size: 1em;
+        font-weight: 700;
+        color: #454545;
+        display: block;
+        line-height: 19px;
+        margin-bottom: 21px;
+}
+.comunica{
+    color: #7a7a7a;
+    font-size:small;
+}
+#proibido{
+    color:#454545;
+    font-size:small;
+    padding-top: 10px;
+}
+
+#copyright{
+    background-color:#e6e6e6;
+    padding-top:10px;
+    
+    
+    
+}
+#footerText{
+color:#7a7a7a;
+font-size: 12px;
+}
+
+
+.ListaCartão{
+list-style-type:none;
+display:flex;
+justify-content: flex-end;
+
+
+}
+img.cartão{
+    width:80%;
+    margin-top: -70px;
+    padding:5px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:990px){
+.card-img-top{
+    display: none;
+}
+
+.btn.btnBg#Login{
+    position:absolute;
+    left: 65%;
+    top: 10px;
+    font-size:0px;
+     padding-bottom: 20px;
+     padding-right: 0px;
+     padding-top:15px
+
+    
+  
+    
+}
+
+.btnBg#SuaEntrega{
+    display: none;
+}
+.btn.btnBg{
+    position: absolute;
+    left: 81%;
+    top:12%
+}
+#line{
+    display: none;
+}
+#valor{
+    display: none;
+}
+#logoMarca{
+    position: relative;
+    width: 150px;
+  left:40px
+    
+}
+.navbar-toggler.custom-toggler{
+    position: absolute;
+    top:-95px;
+    left:19px;
+    padding:0px;
+     border:none
+    
+}
+
+
+img.cartão{
+    position:relative;
+    width:85%;
+   bottom: 450%;
+   right:25%;
+   
+
+}  
+#copyright{
+    text-align:center;
+    padding: 10px;
+   
+}
+#footerText{
+    position: relative;
+    font-size: 13px;
+    top: 35px;
+      
+}
+}
